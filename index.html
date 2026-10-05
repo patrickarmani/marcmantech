@@ -1,11 +1,576 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description"
+        content="Marcman Tech - Desenvolvimento de sites, landing pages e soluções digitais modernas para empresas e profissionais.">
+
+    <title>Marcman Tech | Desenvolvimento Web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header class="header">
+
+        <div class="container">
+
+            <!-- Logo -->
+            <a href="#inicio" class="logo">
+                MARCMAN<span>TECH</span>
+            </a>
+
+
+            <!-- Navegação principal -->
+            <nav class="navbar" id="navbar" aria-label="Navegação principal">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+
+            <!-- Ações do header -->
+            <div class="header-actions">
+
+                <a href="#contato" class="header-cta">
+                    Solicitar orçamento
+                </a>
+
+                <!-- Botão do menu mobile -->
+                <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-container">
     
+                <div class="hero-content">
+                    <span class="hero-tag">
+                        DESENVOLVIMENTO WEB & SOLUÇÕES DIGITAIS
+                    </span>
+    
+                    <h1>
+                        Transformo ideias em
+                        <span>experiências digitais.</span>
+                    </h1>
+    
+                    <p class="hero-description">
+                        Sites e landing pages modernos, responsivos e desenvolvidos
+                        para fortalecer sua presença digital e transformar visitantes
+                        em oportunidades para o seu negócio.
+                    </p>
+    
+                    <div class="hero-actions">
+                        <a href="#contato" class="btn btn-primary">
+                            Quero um projeto
+                        </a>
+    
+                        <a href="#projetos" class="btn btn-secondary">
+                            Ver projetos
+                        </a>
+                    </div>
+    
+                    <div class="hero-info">
+                        <div>
+                            <strong>Web</strong>
+                            <span>Sites modernos</span>
+                        </div>
+
+                        <div>
+                            <strong>Responsivo</strong>
+                            <span>Desktop • Tablet • Mobile</span>
+                        </div>  
+
+                        <div>
+                            <strong>SEO</strong>
+                            <span>Presença digital</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="hero-image">
+                    <div class="hero-image-frame">
+                        <img src="assets/images/patrick-marcman.png" alt="Patrick Marcman, desenvolvedor da Marcman Tech">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="services" id="servicos">
+            <div class="container">
+        
+                <div class="section-heading">
+                    <span class="section-tag">O QUE EU FAÇO</span>
+        
+                    <h2>
+                        Soluções digitais para
+                        <span>fazer seu negócio crescer.</span>
+                    </h2>
+        
+                    <p>
+                        Desenvolvimento páginas modernas, rápidas e responsivas,
+                        pensadas para apresentar sua empresa com profissionalismo
+                        e transformar visitantes em oportunidades.
+                    </p>
+                </div>
+        
+                <div class="services-grid">
+        
+                    <article class="service-card">
+                        <span class="service-number">01</span>
+        
+                        <h3>Landing Pages</h3>
+        
+                        <p>
+                            Páginas estratégicas para apresentar produtos, serviços
+                            e campanhas com foco em conversão e geração de contatos.
+                        </p>
+        
+                        <ul>
+                            <li>Design responsivo</li>
+                            <li>Foco em conversão</li>
+                            <li>Integração com WhatsApp</li>
+                            <li>SEO essencial</li>
+                        </ul>
+        
+                        <a href="#contato">Quero uma landing page →</a>
+                    </article>
+        
+                    <article class="service-card featured">
+                        <span class="service-label">MAIS PROCURADO</span>
+                        <span class="service-number">02</span>
+        
+                        <h3>Sites Profissionais</h3>
+        
+                        <p>
+                            Sites modernos para empresas e profissionais que precisam
+                            construir autoridade e fortalecer sua presença na internet.
+                        </p>
+        
+                        <ul>
+                            <li>Experiência profissional</li>
+                            <li>Desktop, tablet e mobile</li>
+                            <li>Estrutura preparada para SEO</li>
+                            <li>Contato e redes sociais</li>
+                        </ul>
+        
+                        <a href="#contato">Quero meu site →</a>
+                    </article>
+        
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+        
+                        <h3>Presença Digital</h3>
+        
+                        <p>
+                            Estruturação da presença online para tornar sua empresa
+                            mais fácil de encontrar e transmitir mais credibilidade.
+                        </p>
+        
+                        <ul>
+                            <li>SEO on-page</li>
+                            <li>Performance</li>
+                            <li>Experiência do usuário</li>
+                            <li>Orientação digital</li>
+                        </ul>
+        
+                        <a href="#contato">Fortalecer minha presença →</a>
+                    </article>
+        
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="projects" id="projetos">
+            <div class="container">
+        
+                <div class="section-heading">
+                    <span class="section-tag">PROJETOS</span>
+        
+                    <h2>
+                        Projetos que transformam
+                        <span>ideias em soluções reais.</span>
+                    </h2>
+        
+                    <p>
+                        Alguns projetos desenvolvidos para negócios, estudos
+                        e aplicações web, combinando design, tecnologia e
+                        experiência do usuário.
+                    </p>
+                </div>
+        
+                <div class="projects-grid">
+        
+                    <!-- PROJECT 01 -->
+                    <article class="project-card project-featured">
+        
+                        <div class="project-image">
+                            <img src="assets/images/casa-pao-de-mel.png" alt="Projeto Casa do Pão de Mel">
+                        </div>
+        
+                        <div class="project-content">
+                            <span class="project-type">
+                                WEBSITE • NEGÓCIO LOCAL
+                            </span>
+        
+                            <h3>Casa do Pão de Mel</h3>
+        
+                            <p>
+                                Website desenvolvido para fortalecer a presença
+                                digital de um negócio local, apresentar seus produtos
+                                e facilitar o contato com novos clientes.
+                            </p>
+        
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>SEO</span>
+                            </div>
+        
+                                <a href="https://casadopaodemelbh.com.br/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    Ver projeto →
+                                </a>
+                        </div>
+        
+                    </article>
+        
+        
+                    <!-- PROJECT 02 -->
+                    <article class="project-card">
+        
+                        <div class="project-image">
+                            <img src="assets/images/job-application-tracker.png" alt="Job Application Tracker">
+                        </div>
+        
+                        <div class="project-content">
+                            <span class="project-type">
+                                WEB APP • .NET
+                            </span>
+        
+                            <h3>Job Application Tracker</h3>
+        
+                            <p>
+                                Aplicação web para organizar e acompanhar candidaturas
+                                de emprego durante todo o processo seletivo.
+                            </p>
+        
+                            <div class="project-tech">
+                                <span>C#</span>
+                                <span>ASP.NET Core</span>
+                                <span>EF Core</span>
+                                <span>SQLite</span>
+                            </div>
+        
+                                <span class="project-link project-status">
+                                    Em desenvolvimento
+                                </span>
+                        </div>
+        
+                    </article>
+        
+        
+                    <!-- PROJECT 03 -->
+                    <article class="project-card">
+        
+                        <div class="project-image">
+                            <img src="assets/images/doctor-nature.png" alt="Projeto Doctor Nature">
+                        </div>
+        
+                        <div class="project-content">
+                            <span class="project-type">
+                                WEBSITE • FRONT-END • PROJETO ACADÊMICO
+                            </span>
+        
+                            <h3>Doctor Nature</h3>
+        
+                            <p>
+                                Projeto web responsivo com catálogo interativo,
+                                navegação dinâmica e experiência pensada para
+                                diferentes dispositivos.
+                            </p>
+        
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                                
+                                <a href="https://patrickarmani.github.io/wdd131/project/index.html" class="project-link" target="_blank"
+                                    rel="noopener noreferrer">
+                                    Ver projeto →
+                                </a>
+                        </div>
+        
+                    </article>
+        
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="container about-container">
+        
+                <div class="about-visual">
+                    <div class="about-code">
+                        <div class="code-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+        
+                        <pre><code><span class="code-blue">const</span> project = {
+            strategy: <span class="code-string">"clara"</span>,
+            design: <span class="code-string">"responsivo"</span>,
+            code: <span class="code-string">"bem estruturado"</span>,
+            focus: <span class="code-string">"resultado"</span>
+        };
+        
+        <span class="code-blue">function</span> buildSolution(idea) {
+            return idea
+                .plan()
+                .develop()
+                .test()
+                .launch();
+        }</code></pre>
+                    </div>
+                </div>
+        
+                <div class="about-content">
+        
+                    <span class="section-tag">SOBRE</span>
+        
+                    <h2>
+                        Tecnologia com propósito.
+                        <span>Desenvolvimento com estratégia.</span>
+                    </h2>
+        
+                    <p>
+                        Sou Patrick Marcman, desenvolvedor de software e fundador
+                        da Marcman Tech. Desenvolvo soluções digitais para empresas
+                        e profissionais que querem fortalecer sua presença na internet
+                        com tecnologia, clareza e profissionalismo.
+                    </p>
+        
+                    <p>
+                        Cada projeto é desenvolvido pensando não apenas na aparência,
+                        mas também em responsividade, experiência do usuário,
+                        performance e nos objetivos reais do negócio.
+                    </p>
+        
+                    <div class="about-skills">
+        
+                        <div>
+                            <strong>Front-end</strong>
+                            <span>HTML • CSS • JavaScript</span>
+                        </div>
+        
+                        <div>
+                            <strong>Back-end</strong>
+                            <span>C# • ASP.NET Core • .NET</span>
+                        </div>
+        
+                        <div>
+                            <strong>Banco de dados</strong>
+                            <span>SQL • SQLite • PostgreSQL</span>
+                        </div>
+        
+                        <div>
+                            <strong>Desenvolvimento</strong>
+                            <span>Git • GitHub • Responsive Design</span>
+                        </div>
+        
+                    </div>
+        
+                    <a href="#contato" class="btn btn-primary">
+                        Vamos conversar
+                    </a>
+        
+                </div>
+        
+            </div>
+        </section>
+
+
+        <!-- ================================
+             CONTACT
+        ================================ -->
+        
+        <section class="contact" id="contato">
+            <div class="container">
+        
+                <div class="contact-box">
+        
+                    <div class="contact-content">
+                        <span class="section-tag">VAMOS CONVERSAR</span>
+        
+                        <h2>
+                            Vamos transformar sua ideia
+                            <span>em um projeto real.</span>
+                        </h2>
+        
+                        <p>
+                            Precisa de uma landing page, um site profissional
+                            ou quer fortalecer a presença digital do seu negócio?
+                            Conte um pouco sobre o seu projeto e vamos conversar
+                            sobre a melhor solução.
+                        </p>
+        
+                        <div class="contact-actions">
+        
+                            <a href="https://wa.me/5531971491744?text=Ol%C3%A1%2C%20Patrick%21%20Encontrei%20a%20MarcmanTech%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+                                class="btn btn-primary contact-whatsapp" id="whatsapp-link" target="_blank" rel="noopener noreferrer">
+                                Falar pelo WhatsApp
+                            </a>
+        
+                            <a href="mailto:armaninegocios@gmail.com?subject=Contato%20pelo%20site%20MarcmanTech&body=Ol%C3%A1%2C%20Patrick%21%0A%0AEncontrei%20a%20MarcmanTech%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.%0A%0A" class="btn btn-secondary">
+                                Enviar e-mail
+                            </a>
+        
+                        </div>
+        
+                        <p class="contact-note">
+                            Você me conta o que precisa. Eu analiso seu projeto
+                            e conversamos sobre os próximos passos.
+                        </p>
+                    </div>
+        
+        
+                    <div class="contact-visual">
+        
+                        <div class="contact-card">
+        
+                            <span class="contact-card-label">
+                                NOVO PROJETO
+                            </span>
+        
+                            <h3>Tem uma ideia?</h3>
+        
+                            <p>
+                                Vamos descobrir juntos a melhor forma
+                                de transformá-la em uma solução digital.
+                            </p>
+        
+                            <div class="contact-details">
+        
+                                <div>
+                                    <span>01</span>
+                                    <p>Conte sua ideia</p>
+                                </div>
+        
+                                <div>
+                                    <span>02</span>
+                                    <p>Definimos a solução</p>
+                                </div>
+        
+                                <div>
+                                    <span>03</span>
+                                    <p>Construímos o projeto</p>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+    <!-- ================================
+         FOOTER
+    ================================ -->
+    
+    <footer class="footer">
+    
+        <div class="container footer-container">
+    
+            <div class="footer-brand">
+    
+                <a href="#inicio" class="logo">
+                    MARCMAN<span>TECH</span>
+                </a>
+    
+                <p>
+                    Desenvolvimento web e soluções digitais
+                    para empresas e profissionais.
+                </p>
+    
+            </div>
+    
+    
+            <div class="footer-navigation">
+    
+                <span>NAVEGAÇÃO</span>
+    
+                <nav aria-label="Navegação do rodapé">
+                    <a href="#inicio">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+    
+            </div>
+    
+    
+            <div class="footer-contact">
+    
+                <span>CONTATO</span>
+    
+                <p>
+                    Tem um projeto em mente?
+                </p>
+    
+                <a href="#contato" class="footer-contact-link">
+                    Vamos conversar →
+                </a>
+    
+            </div>
+    
+        </div>
+    
+    
+        <div class="container footer-bottom">
+    
+            <p>
+                © 2026 MarcmanTech. Todos os direitos reservados.
+            </p>
+    
+            <a href="#inicio" class="back-to-top">
+                Voltar ao topo ↑
+            </a>
+    
+        </div>
+    
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
